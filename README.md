@@ -28,7 +28,7 @@ When you make a request to the microservice, you will receive a JSON response. I
 
 Here is an example of how to handle a successful response in Node.js:
 
-```json
+```javascript
 
 axios.post('http://[Microservice URL]/calculate-distance', requestData)
   .then(response => {
