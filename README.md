@@ -6,7 +6,7 @@ To request data from the microservice, send a POST request to the `/calculate-di
 
 ### Example POST Request
 
-```json
+
 POST /calculate-distance HTTP/1.1
 Host: [Microservice URL]
 Content-Type: application/json
