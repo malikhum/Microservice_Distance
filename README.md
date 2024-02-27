@@ -8,23 +8,17 @@ Here's how you can programmatically create such a request using Node.js and the 
 
 ### Example POST Request
 
-```javascript
-const axios = require('axios');
+```json
+POST /calculate-distance HTTP/1.1
+Host: [Microservice URL]
+Content-Type: application/json
 
-const requestData = {
-  user_latitude: 40.7128,
-  user_longitude: -74.0060,
-  restaurant_latitude: 40.730610,
-  restaurant_longitude: -73.935242
-};
-
-axios.post('http://[Microservice URL]/calculate-distance', requestData)
-  .then(response => {
-    console.log('Distance:', response.data.distance);
-  })
-  .catch(error => {
-    console.error('Error:', error.response.data.error);
-  });
+{
+  "user_latitude": 40.7128,
+  "user_longitude": -74.0060,
+  "restaurant_latitude": 40.730610,
+  "restaurant_longitude": -73.935242
+}
 
 ```
 
@@ -34,7 +28,7 @@ When you make a request to the microservice, you will receive a JSON response. I
 
 Here is an example of how to handle a successful response in Node.js:
 
-```javascript
+```json
 
 axios.post('http://[Microservice URL]/calculate-distance', requestData)
   .then(response => {
