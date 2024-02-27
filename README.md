@@ -61,5 +61,6 @@ axios.post('http://[Microservice URL]/calculate-distance', requestData)
 ```
 
 ### UML Diagram 
+![Screenshot 2024-02-26 at 7 45 05 PM](https://github.com/malikhum/Microservice_Distance/assets/126134957/dd68334b-2a3c-4d50-9254-0796b6bc08b0)
 
-![UML Diagram](/Users/humayl/Desktop/OSU Classes/Winter 24/CS361/git_microservice/Microservice_Distance/Screenshot 2024-02-26 at 7.45.05 PM.png)
+
