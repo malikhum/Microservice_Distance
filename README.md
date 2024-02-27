@@ -17,3 +17,9 @@ Content-Type: application/json
   "restaurant_latitude": 40.730610,
   "restaurant_longitude": -73.935242
 }
+
+### Example JSON Response
+
+{
+  "distance": "5.678 miles"
+}
