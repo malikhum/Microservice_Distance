@@ -58,3 +58,8 @@ axios.post('http://[Microservice URL]/calculate-distance', requestData)
 {
   "distance": "5.678 miles"
 }
+```
+
+### UML Diagram 
+
+![UML Diagram](/Users/humayl/Desktop/OSU Classes/Winter 24/CS361/git_microservice/Microservice_Distance/Screenshot 2024-02-26 at 7.45.05 PM.png)
